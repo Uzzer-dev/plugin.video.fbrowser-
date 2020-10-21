@@ -28,6 +28,11 @@ def root(plugin, content_type="video"):
     item.label= "filmix.red [partically supported]"
     item.set_callback(open_page, url="/", base_url="http://filmix.red")
     yield item
+
+    item = Listitem()
+    item.label= "spiderxml search [partically supported][untested]"
+    item.set_callback(do_input_page, url="/search", base_url="http://spiderxml.com")
+    yield item
     
     item = Listitem()
     item.label= "cooltv.info [supported][untested]"
