@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.fbrowser" name="FBrowser" provider-name="uzzer" version="0.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.codequick" version="0.9.14"/>
+        <import addon="script.module.defusedxml" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Forkplayer websites browser for kodi</summary>
+        <description lang="en_GB">Forkplayer websites browser for kodi</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>
+        <language>en</language>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+        <news>[upd] initial release.</news>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
