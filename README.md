@@ -1,4 +1,4 @@
-## Fork Player For Kodi v0.1.0 alpha
+## Fork Player For Kodi v0.1.1 alpha
 
 Реализация форк плеера для медиацентра kodi. 
 
